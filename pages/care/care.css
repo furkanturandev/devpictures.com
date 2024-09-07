@@ -1,0 +1,173 @@
+/*
+ * Globals
+ */
+
+* {
+    font-family: oxanium;
+}
+
+
+/* Links */
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+
+/* Custom default button */
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    background-color: deepskyblue;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .0.5rem solid #fff;
+}
+
+.btn:hover {
+    background-color: deepskyblue !important;
+    color: whitesmoke;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    background-image: url(../../img/pexels-neo-2653362.jpg);
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+    max-width: 47em;
+}
+
+#welcome {
+    font-size: 120%;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+    .nav-masthead {
+        float: right;
+    }
+}
+
+@media only screen and (max-width:374px) {
+    #cover-heading {
+        font-size: 35px !important;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    #cover-heading {
+        font-size: 35px !important;
+    }
+    .cover-heading-logo {
+        width: 55px !important;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .cover-heading-logo {
+        width: 60px !important;
+    }
+}
+
+@media only screen and (max-width:403px) {
+    #cover-heading {
+        font-size: 200% !important;
+    }
+    .cover-heading-logo {
+        width: 55px !important;
+    }
+    #welcome {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    #cover-heading {
+        font-size: 167% !important;
+    }
+    .cover-heading-logo {
+        width: 40px !important;
+    }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+    position: relative;
+    padding-top: 26% !important;
+    padding: 0 1.5rem;
+}
+
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 600;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+    color: rgba(255, 255, 255, .5);
+}
